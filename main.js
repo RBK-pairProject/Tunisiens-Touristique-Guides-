@@ -1,1 +1,24 @@
+var data=[
+{place:'Hammamet',
+discription:'',
+imgSrc:'',
+imgMpa:''},
+{
+	place:'Sousse',
+	discription:,
+	imgSrc,
+	imgMpa
+},
+{place:'Bizert',
+discription,
+imgSrc,
+imgMpa},
+{place:'Djerba',
+discription,
+imgSrc,
+imgMpa},
+{place:'Touzer',
+discription,
+imgSrc,
+imgMpa}]
 console.log('hi')
