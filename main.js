@@ -29,7 +29,7 @@ $('.button').css({
 var data=[
 {place:'Hammamet',
 discription:'Hammamet is a town in Tunisia. Thanks to its beaches, it is a popular destination for swimming and water sports and is one of the primary tourist destinations in Tunisia. It is located in the south-eastern section of Cap Bon and is part of the Nabeul Governorate',
-imgSrc:['./TR/img1/caption.jpg','./TR/img1/hammamet.jpg','./TR/img1/hammamet2.jpg'],
+imgSrc:['./TR/img1/img3.jpg','./TR/img1/img1.jpg','./TR/img1/img2.jpg'],
 imgMap:'./TR/img1/carte_hammamet.png'},
 {
 	place:'Sousse',
@@ -45,7 +45,7 @@ imgMap:'./TR/img5/carte.PNG'},
 discription:'Djerba, an island off the coast of Tunisia, is known for Mediterranean beaches and whitewashed desert towns influenced by Berber, Arab, Jewish and African cultures. Houmt Souk is the main city, known for its handicraft markets, fishing port and 16th-century fortress, Borj el Kebir. To the south is El Ghriba synagogue, a pilgrimage site for North African Jews.',
 imgSrc:['./TR/img3/djerba1.JPG','./TR/img3/djerba2.JPG','./TR/img3/djerba3.JPG'],
 imgMap:'./TR/img3/maps1.PNG'},
-{place:'Touzer',
+{place:'touzer',
 discription:'Tozeur is a city in southwest Tunisia. The city is located northwest of Chott el Djerid, in between this Chott and the smaller Chott el Gharsa. It is the capital of Tozeur Governorate. It was the site of the ancient city and former bishopric Tusuros, which remains a Latin Catholic titular see.',
 imgSrc:['./TR/img4/tozer1.JPG','./TR/img4/tozer2.JPG','./TR/img4/tozer3.JPG'],
 imgMap:'./TR/img4/map.JFIF'}]
@@ -93,11 +93,13 @@ function storage(array){
 		$('#container').append(div2)
 
 for(var i=0;i<e.imgSrc.length;i++){
+
 		var img=$(`<img>`)
         img.attr('src',e.imgSrc[i])
-        var div3=$(`<div class='image'></div>`)
+        var div3=$(`<div class='image' id=$('i') ></div>`)
         div3.append(img)
 $('#container').append(div3) }
+
 
 		var imgMap=$('<img>')
 		imgMap.attr('src',e.imgMap)
@@ -175,7 +177,7 @@ if(djerba===true){
 }
 if(touzer===true){
 	filtred=filter(data,function(e){
-		return e.place==="Tozeur"
+		return e.place==="touzer"
 	})
 	storage(filtred);
 }
@@ -191,14 +193,3 @@ localStorage.setItem("bizert",JSON.stringify(Bizert));
 localStorage.setItem("djerba",JSON.stringify(djerba));
 localStorage.setItem("touzer",JSON.stringify(touzer));
 
-
-var input=$('.eliji').val()
-$('.button').click(function(){
-	var filtred=[]
-	if($('#hammamet')===e.place){
-		filtred= filter(data,function(e,i){
-			return e.place==='hammamet'
-		})
-	}
-	storage(filtred)
-})
