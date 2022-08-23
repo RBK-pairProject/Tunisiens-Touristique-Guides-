@@ -1,3 +1,36 @@
+
+/*#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}*/
+/*.content {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 5px;
+}*/
+
+/*.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  ;
+  color: white;
+  text-align: left;} 
+#img{
+  width: 70px;
+  height: 70px;
+}
+*/
 header{
 background-color:#A52A2A ;
 width: 100%;
@@ -15,24 +48,30 @@ font-weight: 700;
 font-size: 160;
   }
   .main{
-    width: 60%;
+    font-size: 25px;
+    width: 70%;
  text-align:left;
      height: 100px;
-  padding: 50px 0 50px;
+  padding: 20px 0 20px;
     display: flex;
     color: white;
 left: 10px;
     position: relative;
 top: 300px;
+opacity: 0.6;
 
   }
   #welcome{
-    font-size: 60px;
- position: relative;
-top:-100px;
-width: 60%;
-font-weight: 700;
-font-size: 160;
+    font-size: 50px;
+   width: 100%px;
+ text-align:left;
+     height: 100px;
+  padding: 20px 0 20px;
+    display: flex;
+    color: white;
+left: 10px;
+    position: relative;
+top: 300px;
   }
   a{
     color: white;
@@ -54,3 +93,4 @@ font-size: 160;
     height: auto;
     z-index: -100;
   }
+>>>>>>> 4d713286377cc9866d5ac29f430c2ae426bb835e
