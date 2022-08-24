@@ -1,36 +1,4 @@
 
-/*#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}*/
-/*.content {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
-    bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 5px;
-}*/
-
-/*.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  ;
-  color: white;
-  text-align: left;} 
-#img{
-  width: 70px;
-  height: 70px;
-}
-*/
 header{
 background-color:#A52A2A ;
 width: 100%;
@@ -74,6 +42,7 @@ left: 10px;
 top: 300px;
   }
   a{
+    caret-color: red;
     color: white;
     font-size: 1.1em;
     font-weight: 500;
@@ -93,9 +62,49 @@ top: 300px;
     height: auto;
     z-index: -100;
   }
+
 .image{
-  height: 150px;
-  width: 150px;
-  display: inline-flex;
-  margin: 10px;
+   width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.homeTown{
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+
+}
+.place{
+background-color: black;
+  font-size: 3em;
+    color: white;
+}
+.discription{
+  color: white;
+ font-size:  30px;
+}
+
+ .map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.imgMaps{
+   border-radius: 50%
+}
+.but{
+   padding: 15px 100px;
+        margin: 10px 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+      }
+      input:hover {
+        opacity: 0.5;
 }
