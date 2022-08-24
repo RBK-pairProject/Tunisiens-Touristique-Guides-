@@ -1,36 +1,4 @@
 
-/*#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}*/
-/*.content {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
-    bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 5px;
-}*/
-
-/*.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  ;
-  color: white;
-  text-align: left;} 
-#img{
-  width: 70px;
-  height: 70px;
-}
-*/
 header{
 background-color:#A52A2A ;
 width: 100%;
