@@ -1,22 +1,4 @@
-// $('.main').css( {
-//     'position':'absolute',
-//     'top':'0',
-//     'left':'0',
-//     'z-index':'1',
-//     'bottom': '0',
-//   'background': 'rgba(0, 0, 0, 0.5)',
-//   'color': '#f1f1f1',
-//   'width': '100%',
-//   'padding': '10px',
-//   'font-size': '20px',
-// })
-// $('#myVideo').css( {
-//   'position': 'fixed',
-//   'right': '0',
-//   'bottom': '0',
-//   'min-width': '100%', 
-//   'min-height': '100%',
-// })
+
 $('.button').css({
   //'background-color': '#FFEBCD',
 
@@ -49,13 +31,7 @@ imgMap:'./TR/img3/maps1.PNG'},
 discription:'Tozeur is a city in southwest Tunisia. The city is located northwest of Chott el Djerid, in between this Chott and the smaller Chott el Gharsa. It is the capital of Tozeur Governorate. It was the site of the ancient city and former bishopric Tusuros, which remains a Latin Catholic titular see.',
 imgSrc:['./TR/img4/tozer1.JPG','./TR/img4/tozer2.JPG','./TR/img4/tozer3.JPG'],
 imgMap:'./TR/img4/map.JFIF'}]
-//localStorage.setItem("data",JSON.stringify(data))
 
-// var state="home"
-// if(state==="home"){
-// 	$('body').remove
-
-// }
 var each = function (coll,func){
     if (Array.isArray(coll)){
         for (var i =0;i<coll.length;i++){
